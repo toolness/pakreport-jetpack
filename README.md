@@ -21,5 +21,9 @@ Right now, it does the following:
 The addon should run on Firefox 3.6 and 4.0 betas. If you're using
 4.0, you should be able to use it without restarting your browser.
 
+You can install the addon here:
+
+  https://secure.toolness.com/xpi/pakreport.xpi
+
   [CrisisCamp]: http://crisiscommons.org/
   [pakreport.crowdflower.com]: http://pakreport.crowdflower.com
