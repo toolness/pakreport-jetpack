@@ -12,7 +12,7 @@ Right now, it does the following:
     scroll-bar, but is instead a list of `<div>` elements that can be
     clicked to toggle on and off. This alleviates widget modality,
     allows the browser's "find-in-page" feature to be used to quickly
-    search through the categories and also prevents all categories
+    search through the categories, and also prevents all categories
     from being wiped due to an accidental mouse click.
 
   * The Google Map widget has been removed entirely, as it was of
