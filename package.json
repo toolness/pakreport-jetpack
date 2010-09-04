@@ -3,7 +3,7 @@
     "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
     "author": "Atul Varma (http://toolness.com/) <atul@mozilla.com>",
     "url": "http://github.com/toolness/pakreport-jetpack",
-    "version": "0.0.2", 
+    "version": "0.0.3", 
     "fullName": "Pakreport Made Easy",
     "description": "Makes CrisisCamp event reporting easier, yay!",
     "id": "jid0-7LPtYD7CpfUTeAsBLRhNyltnyiM"
