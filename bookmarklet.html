@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Pakreport Made Easy Bookmarklet</title>
+<style>
+body {
+  font-family: Baskerville;
+}
+h1 {
+  font-weight: normal;
+}
+a {
+  color: black;
+}
+a:hover {
+  background: #f0f0f0;
+}
+</style>
+<script>
+onload = function() {
+  var req = new XMLHttpRequest();
+  req.open("GET", "lib/main.js");
+  req.onload = function() {
+    var a = document.getElementById("bookmarklet");
+    a.href = "javascript:" + req.responseText;
+  };
+  req.send(null);
+}
+</script>
+<h1>Pakreport Made Easy Bookmarklet</h1>
+<p>Drag this <a href="" id="bookmarklet">Pakreport Made Easy</a> link to the bookmark bar
+in your browser and click on it whenever you load a report via <a
+ href="http://pakreport.crowdflower.com">pakreport.crowdflower.com</a>.</p>
