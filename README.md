@@ -8,6 +8,16 @@ Right now, it does the following:
     you scroll, so you don't have to constantly try locating it over
     and over.
 
+  * The category list is no longer a `<select>` element with a
+    scroll-bar, but is instead a list of `<div>` elements that can be
+    clicked to toggle on and off. This alleviates widget modality,
+    allows the browser's "find-in-page" feature to be used to quickly
+    search through the categories and also prevents all categories
+    from being wiped due to an accidental mouse click.
+
+  * The Google Map widget has been removed entirely, as it was of
+    no use to any volunteers.
+
 The addon should run on Firefox 3.6 and 4.0 betas. If you're using
 4.0, you should be able to use it without restarting your browser.
 
